@@ -1,0 +1,126 @@
+
+body {
+    background-color: rgb(31, 31, 31);
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+}
+
+
+.gamename {
+    font-size: xx-large;
+}
+
+
+button {
+    width: 200px;
+    height: 70px;
+        
+    border: none;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer; 
+    font-size: 2rem;
+    transition: 0.3s;
+    
+
+}
+
+.btn1 button {
+    background-color: blue;
+    color: white;
+}
+
+.btn2 button {
+    background-color: rgb(85, 0, 51);
+    color: white;
+}
+
+.btn3 button {
+    background-color: rgb(128, 130, 0);
+    color: white;
+}
+
+.button button:hover{
+   background-color: red;
+       border: 2px dashed rgb(255, 255, 255);
+transform: scale(0.9);
+}
+
+p{
+    max-width: 400px;
+    margin: 20px auto;
+    font-size: 1rem;
+    color: rgb(164, 164, 164);
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.f{
+background-color: aliceblue;
+    color: black;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    transition: 0.3s;
+    margin-top: 20px;
+}
+.f:hover{
+    background-color: rgb(112, 0, 0);
+    color: white;
+transform: scale(1.4);
+box-shadow: 0px 0px 13px white;
+cursor: crosshair;
+}
+.sign{
+    margin-right: 20px;
+    margin-top: 20px;
+   padding: 0px 40px;
+    border: 2px solid white;
+    border-radius: 30px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+.sign:hover{
+background-color: rgb(3, 3, 88);
+color: white;
+transform: scale(1.2);
+border: none;
+box-shadow: 0px 0px 13px white;
+cursor: pointer;
+}
+
+.f{
+animation: chalo 4s linear infinite;
+}
+
+@keyframes chalo{
+    from{
+transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+img{
+    display: none;
+    margin: 20px auto;
+}
+span{
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: bolder;
+color: white;
+line-height: 2;
+}
